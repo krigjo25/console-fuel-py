@@ -1,32 +1,31 @@
 # Fuel Gauge
 The application converts fraction to procentage
 
-The application was implemented as an assignment at CS50P
-Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.<br>
-A demo of the application can be watched at [Demo : Fuel Gauge](https://cs50.harvard.edu/python/2022/psets/3/fuel/)
+The application was implemented as a CS50 assignment.<br>
+Please respect, and keep the [Academic Honesty Policy](https://cs50.harvard.edu/x/2023/honesty/) in mind.
 
-##  Testing framework / Data sets
-The application has implemented the testing network <strong>pytest</strong>
-to test the application, The application uses assertion to
-test values and raise known exceptions.
+A demo of the application can be watched at [Demo : Fuel Gauge](https://cs50.harvard.edu/python/2022/psets/3/fuel/)
 
 
 ## Installation
 1. Clone the repository:
 ```sh
-git clone https://github.com/krigjo25/console-adieu-py.git
+# Using SSh 
+ssh git@github.com:krigjo25/console-fuel-py.git
+
+# Using git bash
+git clone https://github.com/krigjo25/console-fuel-py.git
+
+# Using Github Cli
+gh repo clone console-fuel-py
 ```
 
 2. Navigate to the project directory
 ```sh
-cd console-adieu-py
+cd console-fuel-py
 ```
 
-3. Install the requirements
-```sh
-pip install -r requirements.txt
-```
-4. Run the file
+3. Run the file
 ```sh
 python app.py
 ```
@@ -39,7 +38,6 @@ Usage : type in the terminal python app.py
 python app.py 
 ```
 
-
 ## Example
 ```sh
 python app.py
@@ -49,7 +47,10 @@ Type in a fraction: <0/1>
 
 expected output: F
 ```
-Replace `<fraction` with the desired fraction, seperate the names with comma to add multiple name
+Replace `<fraction>` with the desired fraction
+
+##  Testing framework / Data sets
+The application has implemented the testing framework<strong>pytest</strong> to test the application, The application uses assertion to test values and raise known exceptions.
 
 ## LICENCE
 The application is under [The Unlicensed](./LICENCE).
